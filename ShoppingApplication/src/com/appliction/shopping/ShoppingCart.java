@@ -18,7 +18,6 @@ public class ShoppingCart {
             System.out.println("The cart is full. Cannot add more items.");
         }
     }
-
     public void displayCartItems() {
         System.out.println("Your Shopping Cart:");
         for (int i = 0; i < itemCount; i++) {

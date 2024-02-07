@@ -15,7 +15,7 @@ public class OnlineShoppingApp {
     	System.out.print("Enter your choice in digits: ");
     	int choice = sc.nextInt();
     	switch(choice) {
-    	case 1:  Product product1 = new Product(1, "Aaloo", "Description 1", 50.0);
+    	case 1:  Product product1 = new Product(1, "Potato", "Description 1", 50.0);
     	         User user1 = new User("User 1");
     	         Thread thread1 = new Thread(() -> {
     	             user1.addToCart(product1);
@@ -24,7 +24,7 @@ public class OnlineShoppingApp {
     	         });
     	         thread1.start();
     	        break;
-    	case 2:    Product product2 = new Product(2, "Pyaz", "Description 2", 35.0);  
+    	case 2:    Product product2 = new Product(2, "Onion", "Description 2", 35.0);  
     	           User user2 = new User("User 2"); 
     	           Thread thread2 = new Thread(() -> {
     	               
@@ -34,7 +34,7 @@ public class OnlineShoppingApp {
     	           });
     	           thread2.start();
     	           break;
-    	case 3: Product product3 = new Product(3, "chini", "Description 2", 35.0);
+    	case 3: Product product3 = new Product(3, "Sugar", "Description 2", 35.0);
     	        User user3 = new User("User 3"); 
                 Thread thread3 = new Thread(() -> {
             
@@ -45,7 +45,7 @@ public class OnlineShoppingApp {
                 thread3.start();
                 break;
     		
-    	case 4: Product product4 = new Product(3, "tel", "Description 2", 35.0);
+    	case 4: Product product4 = new Product(3, "Oil", "Description 2", 35.0);
         User user4 = new User("User 4"); 
         Thread thread4 = new Thread(() -> {
     
@@ -56,7 +56,7 @@ public class OnlineShoppingApp {
         thread4.start();
         break;
     		
-    	case 5:  Product product5 = new Product(1, "Aaloo", "Description 1", 50.0);
+    	case 5:  Product product5 = new Product(1, "Potato", "Description 1", 50.0);
                  Product product6 = new Product(2, "Pyaz", "Description 2", 35.0);
 
                  User user5 = new User("User 5");
