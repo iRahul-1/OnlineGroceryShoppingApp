@@ -75,29 +75,6 @@ public class OnlineShoppingApp {
          default : System.out.println("Enter valid Choice.");
                 
     	}
-//        Product product1 = new Product(1, "Aaloo", "Description 1", 50.0);
-//        Product product2 = new Product(2, "Pyaz", "Description 2", 35.0);
-//
-//        User user1 = new User("User 1");
-//        User user2 = new User("User 2");
-//
-//        Thread thread1 = new Thread(() -> {
-//            user1.addToCart(product1);
-//            user1.addToCart(product2);
-//            user1.viewCart();
-//            user1.placeOrder();
-//        });
-//
-//        Thread thread2 = new Thread(() -> {
-//            user2.addToCart(product1);
-//            user2.addToCart(product2);
-//            user2.viewCart();
-//            user2.placeOrder();
-//        });
-//
-//        thread1.start();
-//        thread1.join();
-//        thread2.start();
     	sc.close();
     }
 }
